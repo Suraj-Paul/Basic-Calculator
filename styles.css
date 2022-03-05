@@ -1,0 +1,49 @@
+.button{
+    border: 1px solid;
+    border-radius: 5px;
+    margin: 3px;
+    text-align: center;
+    background: rgb(100, 159, 247);
+    padding: 10px;
+    width: 60px;
+}
+.buttonNum{
+    border: 1px solid;
+    border-radius: 5px;
+    margin: 3px;
+    text-align: center;
+    background: white;
+    padding: 10px;
+    width: 60px;
+}
+.buttonNum:hover{
+    background: rgb(185, 183, 183);
+}
+.clear_button{
+    border: 1px solid;
+    border-radius: 5px;
+    margin: 3px;
+    background: rgb(231, 99, 99);
+    padding: 5px;
+    width: 60px;
+
+}
+.clear_button:hover{
+    background: white;
+
+}
+
+.button:hover{
+    background: white;
+}
+
+input[type=text] {  
+  width: auto;  
+  height: 50px;  
+  float: left;  
+  padding: 0;  
+  box-sizing: border-box;  
+  text-align: right;  
+  font-size: 22px;  
+  line-height: 60px;  
+  }

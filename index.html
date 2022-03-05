@@ -1,0 +1,66 @@
+<!-- HTML here -->
+<html>
+
+<head>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <form name="Calculator">
+        <table border="1" align="center" cellpadding="15" cellspacing="5" bgcolor="#c0c0c0">
+            <tr>
+                <td>
+                    <input type="text" name="Input" Size="20" id="input">
+                    <br>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="button" id="clr" name="clear" style="font-size:30px" class="clear_button" value=" C "
+                        OnClick="Calculator.Input.value = ''"></br>
+                    <input type="button" id="block7" name="seven" style="font-size:30px" value=" 7 " class="buttonNum"
+                        OnClick="Calculator.Input.value += '7'">
+                    <input type="button" id="block8" name="eight" style="font-size:30px" value=" 8 " class="buttonNum"
+                        OnCLick="Calculator.Input.value += '8'">
+                    <input type="button" id="block9" name="nine" style="font-size:30px" value=" 9 " class="buttonNum"
+                        OnClick="Calculator.Input.value += '9'">
+                    <input type="button" id="plus" name="add" style="font-size:30px" class="button" value=" + "
+                        OnClick="Calculator.Input.value += ' + '">
+
+                    <br>
+                    <input type="button" id="block4" name="four" style="font-size:30px" value=" 4 " class="buttonNum"
+                        OnClick="Calculator.Input.value += '4'">
+                    <input type="button" id="block5" name="five" style="font-size:30px" value=" 5 " class="buttonNum"
+                        OnCLick="Calculator.Input.value += '5'">
+                    <input type="button" id="block6" name="six" style="font-size:30px" value=" 6 " class="buttonNum"
+                        OnClick="Calculator.Input.value += '6'">
+                    <input type="button" id="minus" name="minus" style="font-size:30px" value=" - " class="button"
+                        OnClick="Calculator.Input.value += ' - '">
+                    <br>
+                    
+                    <input type="button" id="block1" name="one" style="font-size:30px" class="buttonNum" value=" 1 "
+                        OnClick="Calculator.Input.value += '1'">
+                    <input type="button" id="block2" name="two" style="font-size:30px" class="buttonNum" value=" 2 "
+                        OnCLick="Calculator.Input.value += '2'">
+                    <input type="button" id="block3" name="three" style="font-size:30px" class="buttonNum" value=" 3 "
+                        OnClick="Calculator.Input.value += '3'">
+                    <input type="button" id="multiply" name="mul" style="font-size:30px" value=" * " class="button"
+                        OnClick="Calculator.Input.value += ' * '">
+                    <br>
+
+                    <input type="button" id="dot" name="clear" style="font-size:30px" class="button" value="."
+                        OnClick="Calculator.Input.value += '.'">
+                    <input type="button" id="block0" name="zero" style="font-size:30px" class="buttonNum" value=" 0 "
+                        OnClick="Calculator.Input.value += '0'">
+                    <input type="button" id="divide" name="div" style="font-size:30px" class="button" value=" / "
+                        OnClick="Calculator.Input.value += ' / '">
+                    <input type="button" id="ans" name="DoIt" style="font-size:30px" class="button" value=" = "
+                        OnClick="Calculator.Input.value = eval(Calculator.Input.value)">
+                    <br>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>
